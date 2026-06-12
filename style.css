@@ -5,7 +5,25 @@
     font-family:'Poppins',sans-serif;
 }
 
+.header-bg{
+    padding-top:40px;
+    background:
+        radial-gradient(
+            circle at center top,
+            rgba(255,255,255,.35),
+            transparent 45%
+        ),
+        linear-gradient(
+            180deg,
+            #5d7748 0%,
+            #7f9a68 20%,
+            #a9bf97 55%,
+            #f5f6f0 100%
+        );
+}
+
 body{
+    margin:0;
     width:100%;
     overflow-x:hidden;
     background:#f5f6f0;
